@@ -7,7 +7,7 @@ layout: default
 * [Programming Tutorials](Programming_Tutorials.md)
 * [Robot Resources](Robot_Resources.md)
 * [Contact](Contact.md) 
-
+* * *
 **Listed here are the links to all of the lectures given so far, check back every week!**
 
 #### Arduino Programming Lectures:
