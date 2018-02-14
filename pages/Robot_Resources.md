@@ -5,8 +5,8 @@ layout: default
 
 
 * [Home](../index.md)
-* [Lectures](pages/Lectures.md)
-* [Downloads](pages/Downloads.md)
-* [Programming Tutorials](pages/Programming_Tutorials.md)
+* [Lectures](Lectures.md)
+* [Downloads](Downloads.md)
+* [Programming Tutorials](Programming_Tutorials.md)
 * **Robot Resources**
 
