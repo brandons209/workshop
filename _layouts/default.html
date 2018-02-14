@@ -22,12 +22,13 @@
   </head>
 
   <body>
+    <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
     <div class="shell">
 
       <header>
         <span class="ribbon-outer">
           <span class="ribbon-inner">
-            <h1>ASME Programming Workshop</h1>
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
             <h2>{{ site.description | default: site.github.project_tagline }}</h2>
           </span>
           <span class="left-tail"></span>
@@ -69,6 +70,7 @@
           <span class="left-tail"></span>
           <span class="right-tail"></span>
         </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
         <span class="octocat"></span>
       </footer>
 
@@ -86,4 +88,5 @@
     {% endif %}
   </body>
 </html>
+
 
