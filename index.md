@@ -4,7 +4,7 @@ layout: default
 
 #  Welcome to the ASME Programming Workshop Site!
 
-###### The one stop shop for Arduino programming!
+##### The one stop shop for Arduino programming!
 What are you looking for, traveler?
 
 * **Home**
