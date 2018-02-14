@@ -7,6 +7,7 @@ layout: default
 * [Programming Tutorials](Programming_Tutorials.md)
 * [Robot Resources](Robot_Resources.md)
 * [Contact](Contact.md)  
+
 * * *
 **Here are some download links to programs that you may need in your future coding career.**  
 For my lectures and if you want to start programming in C++ on your **WINDOWS** computer:  
