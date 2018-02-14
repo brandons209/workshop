@@ -1,5 +1,3 @@
 ---
 layout: default
 ---
-
-nice test
