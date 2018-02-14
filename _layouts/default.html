@@ -28,7 +28,7 @@
       <header>
         <span class="ribbon-outer">
           <span class="ribbon-inner">
-            <h1>{{ site.title }} </h1>
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
             <h2>{{ site.description | default: site.github.project_tagline }}</h2>
           </span>
           <span class="left-tail"></span>
@@ -55,19 +55,13 @@
 
       <section id="main_content">
         {{ content }}
-	<nav>
-  		<ul>
-    			<li><a href="index.md">Home</a> </li>
-   			<li><a href="pages/test.html">Test Page</a> </li>
-    		</ul>
-	</nav>
       </section>
 
       <footer>
         <span class="ribbon-outer">
           <span class="ribbon-inner">
             {% if site.github.is_project_page %}
-              <p>This project by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> can be found on <a href="{{ site.github.repository_url }}">GitHub</a></p>
+              <p>this project by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> can be found on <a href="{{ site.github.repository_url }}">GitHub</a></p>
             {% endif %}
             {% if site.github.is_user_page %}
               <p>Projects by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a> can be found on <a href="{{ site.github.repository_url }}">GitHub</a></p>
@@ -94,5 +88,3 @@
     {% endif %}
   </body>
 </html>
-
-
