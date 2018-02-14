@@ -19,7 +19,7 @@ For my lectures and if you want to start programming in C++ on your **WINDOWS** 
 For compiling C++ on your **macOS** computer, you only need Eclipse and Java, not MinGW.  
 * * *
 
-**Download links if you want to start coding with Python:**
+**Download links if you want to start coding with Python:**  
 [Python (Windows and MacOS)](https://www.python.org/downloads/)  
 
 
