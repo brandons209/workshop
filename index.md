@@ -11,3 +11,4 @@ What are you looking for, traveler?
 * [Downloads](pages/Downloads.md)
 * [Programming Tutorials](pages/Programming_Tutorials.md)
 * [Robot Resources](pages/Robot_Resources.md)
+* [Contact](pages/Contact.md)
