@@ -9,7 +9,7 @@ layout: default
 * [Contact](Contact.md)  
 
 * * *
-#### Here are some download links to programs that you may need in your future coding career.  
+#### Here are some download links to programs that you may need in your future coding career:  
 For my lectures and if you want to start programming in C++ on your **WINDOWS** computer:  
 [Arduino IDE](https://www.arduino.cc/en/Main/Software)  
 [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk9-downloads-3848520.html)  

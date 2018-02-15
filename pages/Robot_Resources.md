@@ -11,4 +11,4 @@ layout: default
 * * *
 
 ## Example Scripts for Arduino Robots
-[Basic robot with ps4 BT controller](https://goo.gl/P4gi3Q)
+[Basic robot with ps4 BT controller.](https://goo.gl/P4gi3Q)
