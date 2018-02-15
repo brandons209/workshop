@@ -16,7 +16,8 @@ layout: default
 	- This is a tutorial to get Eclipse C++ and MinGW compiler on windows, this is a nice IDE and compiler to run code on your computer!
 	- You can use eclipse instead of Code Blocks, which is what Bucky uses in his tutorials.
 	- [Getting Started with Eclipse C++ Tutorial](https://www.ntu.edu.sg/home/ehchua/programming/howto/EclipseCpp_HowTo.html)
-		- Another tutorial I found that may be helpful for Eclipse C++.
+		- Another tutorial I found that may be helpful for Eclipse C++.  
+
 ### Python Tutorials
 Python is quite an easier programming language to learn and master than C++ as your first language, and it is used almost everywhere.  
 I highly suggest you take some time to look over these tutorials and learn some basic Python.  
