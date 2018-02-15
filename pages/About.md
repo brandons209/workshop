@@ -18,10 +18,10 @@ The workshops are meant to be fun, interesting, and enganging. If you haven't al
 
 ## What do I need for the workshop!
 There are only four things you need to get the most out of this workshop:
-	- Your brain.
-	- A notebook and pencil to take notes.
-	- A laptop.
-	- The Arduino Super Starter kit, linked [here](https://www.amazon.com/Elegoo-EL-KIT-003-Project-Starter-Tutorial/dp/B01D8KOZF4/ref=sr_1_1_sspa?ie=UTF8&qid=1518677333&sr=8-1-spons&keywords=elegoo+super&psc=1). 
+	* Your brain.
+	* A notebook and pencil to take notes.
+	* A laptop.
+	* The Arduino Super Starter kit, linked [here](https://www.amazon.com/Elegoo-EL-KIT-003-Project-Starter-Tutorial/dp/B01D8KOZF4/ref=sr_1_1_sspa?ie=UTF8&qid=1518677333&sr=8-1-spons&keywords=elegoo+super&psc=1). 
 The Arduino kit costs 35 dollars and is optional, however if you want to do these projects yourself you will need one. It is a great investment!
 
 ## Who is this Brandon you speak of?
