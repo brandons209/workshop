@@ -26,7 +26,7 @@ There are only four things you need to get the most out of this workshop:
 
 ## Who is this Brandon you speak of?
 Well I am glad you asked! My name is Brandon Silva; a freshman at UCF majoring in Computer Engineering.  
-I have been programming for about 5 years now, ever since the beginning of highschool. I got involved in programming through my school's FIRST robotics club, [The Nerds of Prey](http://thenerdsofprey.com). You may of heard about FIRST as they have their competitions in the CFE Arena every year in March.  
+I have been programming for about 5 years now, ever since the beginning of highschool. I got involved in programming through my school's FIRST robotics club, [The Nerds of Prey](http://thenerdsofprey.com). You may of heard about [FIRST](https://www.firstinspires.org/robotics/frc) as they have one of their competitions in the CFE Arena every year in March.  
 I am mostly self taught, having learned C++, Java, and Python. And I love to teach and improve other people!  
 Here is a picture of me, I am the one with the green wig on. This is at an off season FIRST competition called [Roboticon](https://roboticon.net/).  
 ![](../assets/images/brandon_pic_resized.jpg)
