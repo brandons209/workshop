@@ -2,17 +2,14 @@
 layout: default
 ---
 * [Home](../index.md)
-* [About](About.md)
+* **About**
 * [Lectures](Lectures.md)
 * [Downloads](Downloads.md)
 * [Programming Tutorials](Programming_Tutorials.md)
 * [Robot Resources](Robot_Resources.md)
-* **Contact**
+* [Contact](Contact.md)
 
 ***
 
-Slack: @Brandon Silva  
-Email: brandon.silva209@knights.ucf.edu  
-Phone: 865-356-9558  
-Skype: brandons209  
-Discord: oakytreejr#8573  
+# What is this workshop you speak of?
+

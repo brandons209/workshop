@@ -2,6 +2,7 @@
 layout: default
 ---
 * [Home](../index.md)
+* [About](About.md)
 * [Lectures](Lectures.md)
 * **Downloads**
 * [Programming Tutorials](Programming_Tutorials.md)
