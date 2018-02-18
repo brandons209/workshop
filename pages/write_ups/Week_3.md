@@ -23,7 +23,8 @@ Download it [here.](https://goo.gl/P8tdAc)
 #### Variables
 1. An array of type integer is needed to contain 5 notes from the pitches library. The notes are all integers.  
 2. A variable that contains the duration for the note to be played is needed as well, set it to 100 for now.  
-3. To define the pins being used, create an array of type integer that contains the pin numbers of the 5 buttons. Then a separate variable of type integer that contains the pin number of the buzzer.  
+3. To define the pins being used, create an array of type integer that contains the pin numbers of the 5 buttons. Then a separate variable of type integer that contains the pin number of the buzzer.
+
 ```c++
 int notes[5] = {NOTE_C5, NOTE_D5, NOTE_E5, NOTE_F5, NOTE_G5}; //create five notes for buzzer to play, notes are of type int
 int duration = 100; //duration of the note to be played
@@ -36,6 +37,7 @@ For this project, no extra functions need to be created.
 #### Setup
 1. In set up, set the pinMode of each of the button pins to INPUT_PULLUP. Use a for loop to access each value of the button pin array.  
 	- This effectively inverts the behavior of the INPUT mode, where HIGH(5v) means the button is not being pressed, and LOW(0v) means the button is being pressed.
+
 ```c++
 void setup() {
   for(int i = 0; i < 5; i++){//set button pins mode to INPUT_PULLUP using a for loop
@@ -47,10 +49,12 @@ void setup() {
 1. The function digitalRead(pinNum) returns whether the pin is currently HIGH or LOW, use this to determine if the button is being pressed.  
 2. When the pinNumber is reading LOW, the button is being pressed.  
 3. If the button is returning LOW, we run the tone() function to have the buzzer play the tone we specified.
+
 ```c++
 tone(speakerPinNum, note[index of note], duration);
 ```
 4. Now, an if else if statement chain can be used to check each button for being pressed.
+
 ```c++
 void loop() {  
   
