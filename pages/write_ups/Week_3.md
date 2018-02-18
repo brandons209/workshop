@@ -23,7 +23,7 @@ Download it [here.](https://goo.gl/P8tdAc)
 #### Variables
 1. An array of type integer is needed to contain 5 notes from the pitches library. The notes are all integers.  
 2. A variable that contains the duration for the note to be played is needed as well, set it to 100 for now.  
-3. To define the pins being used, create an array of type integer that contains the pin numbers of the 5 buttons. Then a separate variable of type integer that contains the pin number of the buzzer.
+3. To define the pins being used, create an array of type integer that contains the pin numbers of the 5 buttons. Then a separate variable of type integer that contains the pin number of the buzzer.  
 ```c++
 int notes[5] = {NOTE_C5, NOTE_D5, NOTE_E5, NOTE_F5, NOTE_G5}; //create five notes for buzzer to play, notes are of type int
 int duration = 100; //duration of the note to be played
