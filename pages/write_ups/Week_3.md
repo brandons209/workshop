@@ -16,7 +16,7 @@ layout: default
 
 #### Includes
 This project needs to include the pitches library, which defines all the notes that can be played on the buzzer.  
-Download it [here](https://goo.gl/P8tdAc)
+Download it [here.](https://goo.gl/P8tdAc)
 ```c++
 #include "pitches.h" //include pitches library to define notes
 ```
