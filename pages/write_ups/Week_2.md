@@ -24,7 +24,7 @@ int ledPin = 3;
 #### Functions
 For this project, no extra functions need to be created.
 #### Setup
-In the setup function, the pin mode of the led pin needs to be set to output, which means the pin will send out voltage when the code tells it to. To do this, use the pinMode(<pin>, OUTPUT) function.
+In the setup function, the pin mode of the led pin needs to be set to output, which means the pin will send out voltage when the code tells it to. To do this, use the pinMode(pin, OUTPUT) function.
 ```c++
 void setup() {
   pinMode(ledPin, OUTPUT); //set pinmode of the ledpin to output.
@@ -32,7 +32,7 @@ void setup() {
 ```
 #### Loop
 In order to make the LED flash, it needs to be turned on, then the program needs to wait, then the led needs to be turned off, followed by another wait.  
-This will give the appearance of the LED flashing. To set the output of the pin to HIGH (5v) or LOW (0v), use the digitalWrite(<pin>, HIGH or LOW) function.  
+This will give the appearance of the LED flashing. To set the output of the pin to HIGH (5v) or LOW (0v), use the digitalWrite(pin, HIGH or LOW) function.  
 To make the program wait, use the delay(millisecondsToDelay) function.
 ```c++
 void loop() {
