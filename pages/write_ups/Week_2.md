@@ -34,6 +34,7 @@ void setup() {
 1. In order to make the LED flash, it needs to be turned on, then the program needs to wait, then the led needs to be turned off, followed by another wait.  
 2. This will give the appearance of the LED flashing. To set the output of the pin to HIGH (5v) or LOW (0v), use the digitalWrite(pin, HIGH or LOW) function.  
 3. To make the program wait, use the delay(millisecondsToDelay) function.
+
 ```c++
 void loop() {
   digitalWrite(ledPin, HIGH); //turn on led
