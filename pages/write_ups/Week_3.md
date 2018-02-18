@@ -53,7 +53,7 @@ void setup() {
 ```c++
 tone(speakerPinNum, note[index of note], duration);
 ```
-4. Now, an if else if statement chain can be used to check each button for being pressed.
+Now, an if else if statement chain can be used to check each button for being pressed.
 
 ```c++
 void loop() {  
