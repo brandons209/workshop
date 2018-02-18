@@ -2,13 +2,14 @@
 layout: default
 ---
 * [Home](../index.md)
-* [About](About.md)
+* [About](About.md)       
 * **Lectures**
+* [Write Ups](Write_Ups.md)
 * [Downloads](Downloads.md)
 * [Programming Tutorials](Programming_Tutorials.md)
 * [Robot Resources](Robot_Resources.md)
 * [Contact](Contact.md)
- 
+
 * * *
 **Listed here are the links to all of the lectures given so far, check back every week!**
 

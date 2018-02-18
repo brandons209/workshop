@@ -2,12 +2,13 @@
 layout: default
 ---
 * [Home](../index.md)
-* [About](About.md)
+* [About](About.md)       
 * [Lectures](Lectures.md)
+* [Write Ups](Write_Ups.md)
 * **Downloads**
 * [Programming Tutorials](Programming_Tutorials.md)
 * [Robot Resources](Robot_Resources.md)
-* [Contact](Contact.md)  
+* [Contact](Contact.md)
 
 * * *
 #### Here are some download links to programs that you may need in your future coding career:  

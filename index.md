@@ -1,4 +1,4 @@
----
+\---
 layout: default
 ---
 
@@ -9,6 +9,7 @@ What are you looking for, traveler?
 * **Home**
 * [About](pages/About.md)
 * [Lectures](pages/Lectures.md)
+* [Write Ups](pages/Write_Ups.md)
 * [Downloads](pages/Downloads.md)
 * [Programming Tutorials](pages/Programming_Tutorials.md)
 * [Robot Resources](pages/Robot_Resources.md)

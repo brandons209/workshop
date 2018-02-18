@@ -2,12 +2,13 @@
 layout: default
 ---
 * [Home](../index.md)
-* [About](About.md)
+* [About](About.md)       
 * [Lectures](Lectures.md)
+* [Write Ups](Write_Ups.md)
 * [Downloads](Downloads.md)
 * [Programming Tutorials](Programming_Tutorials.md)
 * **Robot Resources**
-* [Contact](Contact.md) 
+* [Contact](Contact.md)
 
 * * *
 
