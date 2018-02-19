@@ -65,6 +65,7 @@ This function will hold all of the logic for displaying the count down on the di
 11. If the seconds is between 60 and 0, then 1 is subtracted from seconds and the display is updated.
 12. If the seconds is 0 but the minutes is greater than 0, then the next minute is reached. So 1 is subtracted from the minutes variable and seconds is set to 59 to start the next minute.
 13. If both minutes and seconds is zero, then the count down is done. A tone is played and the loop ends.
+
 ```c++
 void countDown(int minutes, int seconds){
   while(true){ //runs "forever"
