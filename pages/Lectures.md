@@ -17,6 +17,7 @@ layout: default
 Lecture 1: [Workshop Information and Programming Basics](https://goo.gl/cPQiM1)  
 Lecture 2: [Programming Basics Continued and Flashing LED Project](https://goo.gl/VL72jb)  
 Lecture 3: [Programming Intermediate Topics and Piano Project](https://goo.gl/EGYP81)  
+Lecture 4: [Serial Communication and Timers, Countdown Project](https://goo.gl/TM6Unb)
 
 #### Robot Programming Lectures:
 Lecture 1: [Controlling a Robot: Hardware and Software](https://goo.gl/s2MSKD)  

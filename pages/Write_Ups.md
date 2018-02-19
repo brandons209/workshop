@@ -19,4 +19,4 @@ _Also included are download links to a commented example program for the project
 * Week 1: **No Project**
 * Week 2: [Flashing LED](write_ups/Week_2.md)
 * Week 3: [Piano](write_ups/Week_3.md)
-* Week 4: **TBA**
+* Week 4: [Countdown Timer with Seven Segment Display](write_ups/Week_4.md)
