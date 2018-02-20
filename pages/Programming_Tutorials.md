@@ -2,7 +2,7 @@
 layout: page_layout
 ---
 * [Home](../index.md)
-* [About]       
+* [About](About.md)       
 * [Lectures](Lectures.md)
 * [Write Ups](Write_Ups.md)
 * [Downloads](Downloads.md)
