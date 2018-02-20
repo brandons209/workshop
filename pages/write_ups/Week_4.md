@@ -98,7 +98,7 @@ void countDown(int minutes, int seconds){
 1. The set up for the seven segment display is a little complicated, so just use the code here and replace the port numbers with the ports you used in your setup.  
 2. After that, the serial communication must be started using Serial.begin() with a baud rate of 115200.
 3. A prompt is then printed to ask the user to enter in the count down time in MinuteMinuteSecondSecond.
-
+4. **PLEASE NOTE! My display is COMMON_ANODE, however, yours should be COMMON_CATHODE. Please change COMMON_ANODE to COMMON_CATHODE.**
 ```c++
 void setup() {
   /*
@@ -108,7 +108,7 @@ void setup() {
   byte digitPins[] = {2, 3, 4, 5}; //Digits: 1,2,3,4 <--put one resistor (ex: 220 Ohms, or 330 Ohms, etc, on each digit pin)
   byte segmentPins[] = {6, 7, 8, 9, 10, 11, 12, 13}; //Segments: A,B,C,D,E,F,G,Period
 
-  sevseg.begin(COMMON_ANODE, numDigits, digitPins, segmentPins, false, false, true); //COMMON_ANODE is the type of display we have, first false is setting resistors are on digit pins, second false is saying don't update with delays, and last true is saying to keep leading zeros
+  sevseg.begin(COMMON_CATHODE, numDigits, digitPins, segmentPins, false, false, true); //COMMON_CATHODE is the type of display we have, first false is setting resistors are on digit pins, second false is saying don't update with delays, and last true is saying to keep leading zeros
   sevseg.setBrightness(10); //not really the brightness, but how fast the display refreshes, which affects brightness.
   Serial.begin(115200);//start serial communication with baud rate of 115200
   Serial.println("Enter the time you want to countDown from as MMSS"); //prompts the user to enter a countdown time in form minute minute second second
