@@ -99,6 +99,7 @@ void countDown(int minutes, int seconds){
 2. After that, the serial communication must be started using Serial.begin() with a baud rate of 115200.
 3. A prompt is then printed to ask the user to enter in the count down time in MinuteMinuteSecondSecond.
 4. **PLEASE NOTE! My display is COMMON_ANODE, however, yours should be COMMON_CATHODE. Please change COMMON_ANODE to COMMON_CATHODE.**
+
 ```c++
 void setup() {
   /*
