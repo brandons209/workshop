@@ -8,11 +8,11 @@ layout: page_layout
 * [Downloads](Downloads.md)
 * [Programming Tutorials](Programming_Tutorials.md)
 * [Robot Resources](Robot_Resources.md)
-* [Contact](Contact.md) 
+* [Contact](Contact.md)
 
 * * *
 ## Write Ups for each Lecture's Project
-_A write up is a written out explaination of a program done line by line of code._  
+_A write up is a written out explanation of a program done line by line of code._  
 _Also included are download links to a commented example program for the project._    
 * * *
 
