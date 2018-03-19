@@ -19,7 +19,7 @@ Lecture 2: [Programming Basics Continued and Flashing LED Project](https://goo.g
 Lecture 3: [Programming Intermediate Topics and Piano Project](https://goo.gl/EGYP81)  
 Lecture 4: [Serial Communication and Timers, Countdown Project](https://goo.gl/TM6Unb)  
 Lecture 5: [Random Number Generation and Multidimensional Arrays, LED Dice Project](https://goo.gl/Zvez9q)  
-Lecture 6: [String Functions and PWM, Morse Code Translator Project](https://goo.gl/DDBkBf)
+Lecture 6: [String Functions and PWM, Morse Code Translator Project](https://goo.gl/mohj9R)
 
 #### Robot Programming Lectures:
 Lecture 1: [Controlling a Robot: Hardware and Software](https://goo.gl/s2MSKD)  
