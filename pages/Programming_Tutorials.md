@@ -29,7 +29,7 @@ I highly suggest you take some time to look over these tutorials and learn some 
 		- This only covers the first few chapters however, you can buy the full video course for 10 dollars [here](https://www.udemy.com/automate/?couponCode=FOR_LIKE_10_BUCKS).
 
 ### Arduino eBooks
-*** These are good eBooks for creating awesome projects with the arduino, however many of them require extra parts not in the kit. Many of these parts are cheap, so check them out if you want to do some more awesome projects!***
+*** These are good eBooks for creating awesome projects with the arduino, however many of them require extra parts not in the kit. Many of these parts are cheap, so check them out if you want to do some more awesome projects! ***
 - [30 Arduino Projects for the Evil Genius](https://goo.gl/zSbKfb)
 - [Arduino Cookbook](https://goo.gl/y9tb88)
 - [Getting Started with Arduino](https://goo.gl/DQxMqJ)
