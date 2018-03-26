@@ -22,3 +22,4 @@ _Also included are download links to a commented example program for the project
 * Week 4: [Countdown Timer with Seven Segment Display](write_ups/Week_4.md)
 * Week 5: [LED Dice](write_ups/Week_5.md)
 * Week 6: [Morse Code Translator](write_ups/Week_6.md)
+* Week 7: **No Project**
