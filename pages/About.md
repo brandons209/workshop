@@ -11,7 +11,7 @@ layout: page_layout
 * [Contact](Contact.md)
 
 * * *
-## What is this workshop you speak of?
+## What is this workshop?
 The Programming Workshop is ran by ASME and taught by Brandon Silva. It's purpose is to spark interest and teach programming to those who are new or inexperienced using the Arduino microcontroller and C++.  
 Every week, new programming concepts and methods are introduced and build off the last lectures, followed by an Arduino project applying the concepts learned.  
 The workshops are meant to be fun, interesting, and engaging. If you haven't already, come check it out! You won't reject it!
@@ -21,8 +21,7 @@ There are only four things you need to get the most out of this workshop:
 - Your brain.
 - A notebook and pencil to take notes.
 - A laptop.
-- The Arduino Super Starter kit, linked [here](https://www.amazon.com/Elegoo-EL-KIT-003-Project-Starter-Tutorial/dp/B01D8KOZF4/ref=sr_1_1_sspa?ie=UTF8&qid=1518677333&sr=8-1-spons&keywords=elegoo+super&psc=1).
-	- The Arduino kit costs 35 dollars and is optional, however if you want to do these projects yourself you will need one. It is a great investment!
+- The Arduino Super Starter kit. Kits will be provided in class. More information will be given later on purchasing one for yourself.
 
 ## Who is this Brandon you speak of?
 Well I am glad you asked! My name is Brandon Silva and I am in my second year here at UCF majoring in Computer Engineering.  

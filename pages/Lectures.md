@@ -11,7 +11,7 @@ layout: page_layout
 * [Contact](Contact.md)
 
 * * *
-**Listed here are the links to all of the lectures given so far, check back every week!**
+**Listed here are the links to all of the lectures for this workshop.**
 
 #### Arduino Programming Lectures:
 Lecture 1: [Workshop Information and Programming Basics](https://goo.gl/cPQiM1)  

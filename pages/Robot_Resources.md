@@ -20,7 +20,7 @@ Bluetooth controllers are easy to set up and use, at least the ones mentioned ab
 ## Motor Controllers
 **For motor controllers, I highly suggest the** [Adafruit motor shield](https://www.adafruit.com/product/1438?gclid=CjwKCAiAqIHTBRAVEiwA6TgJw5LRyxHq3K9mnEQkyjCQKqnoeI4orKzAAj2KrmRVDnoR4DovjPvrMBoC-WAQAvD_BwE
 ), **as it is easy to wire and code for.**  
-* It can control 4 DC motors or 2 Stepper motors. That means it can control 2 DC motors and 1 Stepper motor.
+* It can control 4 DC motors or 2 Stepper motors. That means it can also control 2 DC motors and 1 Stepper motor.
 * All it needs is a dedicated power supply and its good to go! See the Robot Programming Lectures for more details on wiring and coding.
 
 ## Example Scripts for Arduino Robots
