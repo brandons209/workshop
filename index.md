@@ -4,8 +4,7 @@ layout: default
 
 #  Welcome to the ASME Programming Workshop Site!
 
-### The one stop shop for Arduino programming! Meetings every Monday from 6 - 8pm in BHC 129
-### Final Meeting was 3/26/18, please take survey for this workshop [here](https://goo.gl/pcJATt).
+### The one stop shop for Arduino programming! First meeting will be on **TBA**, at **TBA** in **TBA**.
 #### **PLEASE CHECK SLACK CHANNEL FOR UPDATES!**
 What are you looking for, traveler?  
 * **Home**
