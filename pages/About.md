@@ -23,7 +23,7 @@ There are only four things you need to get the most out of this workshop:
 - A laptop.
 - The Arduino Super Starter kit. Kits will be provided in class. More information will be given later on purchasing one for yourself.
 
-## Who is this Brandon you speak of?
+## Who is Brandon Silva?
 Well I am glad you asked! My name is Brandon Silva and I am in my second year here at UCF majoring in Computer Engineering.  
 I have been programming for a little over five years now, ever since the beginning of high school. I got involved in programming through my school's FIRST robotics club, [The Nerds of Prey](http://thenerdsofprey.com). You may of heard about [FIRST](https://www.firstinspires.org/robotics/frc) as they have one of their competitions in the CFE Arena every year in March.  
 I am mostly self taught, having learned C, C++, Java, and Python. I love to teach and help improve other people's skills!  
