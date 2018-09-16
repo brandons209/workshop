@@ -5,7 +5,7 @@ layout: default
 #  Welcome to the ASME Programming Workshop Site!
 
 ### The one stop shop for Arduino programming! First meeting will be on **TBA**, at **TBA** in **TBA**.
-#### **PLEASE CHECK SLACK CHANNEL FOR UPDATES!**
+#### **PLEASE CHECK ASME SLACK CHANNEL FOR UPDATES!**
 What are you looking for, traveler?  
 * **Home**
 * [About](pages/About.md)

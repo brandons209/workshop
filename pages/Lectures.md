@@ -12,6 +12,7 @@ layout: page_layout
 
 * * *
 **Listed here are the links to all of the lectures for this workshop.**
+**For homework, you can head over to the Downloads tab to download and setup a coding environment with Eclipse, or use this [online compiler](https://www.onlinegdb.com/online_c++_compiler).**
 
 #### Arduino Programming Lectures:
 Lecture 1: [Workshop Information and Programming Basics](https://goo.gl/cPQiM1)  
