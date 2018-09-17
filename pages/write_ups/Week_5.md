@@ -12,7 +12,7 @@ layout: default
 
 * * *
 
-**Download for this project's code:** [Here](https://goo.gl/aumzpd)
+**Download for this project's code:** [Here](https://tinyurl.com/y8hqr7d9)
 
 #### Includes
 No includes are required for this project.

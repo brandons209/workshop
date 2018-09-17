@@ -12,7 +12,7 @@ layout: page_layout
 
 * * *
 
-**Download for this project's code:** [Here](https://goo.gl/9HeVAP)  
+**Download for this project's code:** [Here](https://tinyurl.com/yaf69f2z)  
 
 #### Includes
 For this project, there are no required includes.  

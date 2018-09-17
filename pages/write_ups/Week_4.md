@@ -12,7 +12,7 @@ layout: page_layout
 
 * * *
 
-**Download for this project's code:** [Here](https://goo.gl/fMkBW6)
+**Download for this project's code:** [Here](https://tinyurl.com/ycucquxt)
 
 #### Includes
 There are two libraries needed for the project. The pitches library for the buzzer, which the download link can be found [here](https://goo.gl/JVeKwG), and the SevSeg library, which can be downloaded from the Arduino library manager.
@@ -34,7 +34,7 @@ Both of these functions will have a return type of void.
 ##### Delay Function
 The delay function will make use of the Arduino's millis() function, which returns the time since the Arduino started running the code in milliseconds.  
 1. The function needs one argument: the amount of seconds to be delayed.
-2. Inside the function, a variable that contains the start time in seconds must be created, of type double. 
+2. Inside the function, a variable that contains the start time in seconds must be created, of type double.
 	- To get seconds, milliseconds must be divided by 1000, so this variable will equal millis()/1000.  
 3. Create a loop that runs until the current time in seconds (millis()/1000) minus the startTime variable is less than the number of seconds of the amount of seconds delayed argument.
 4. Inside the loop, put sevseg.refreshDisplay() to make sure the numbers are displayed properly.
@@ -51,7 +51,7 @@ void secondDelay(int numOfSeconds){
 This function will hold all of the logic for displaying the count down on the display.
 1. The function needs two integer arguments: one that contains the minutes of the countdown and one that contains the seconds.
 2. All of the code will be put into a while loop that runs forever, to do this write while(true). Break statements will be used to end the loop when needed.
-3. Inside the loop, an if statement must check whether another count down as been entered, using the Serial.available() function. If there has been another count down entered then the loop is exited out of. 
+3. Inside the loop, an if statement must check whether another count down as been entered, using the Serial.available() function. If there has been another count down entered then the loop is exited out of.
 4. If there hasn't been another count down entered, then the count down logic is ran.
 5. A placeholder variable is created of type string to hold the full count down number.
 6. Then, an if statement is needed to check whether the inputted seconds is less than 10. This is because an integer variable with a number 1 to 9 does not have a leading zero, like 01 or 09.
@@ -72,7 +72,7 @@ void countDown(int minutes, int seconds){
     if(Serial.available() > 0){//if the user enters a new time while a countdown is active, end the current countdown.
       break; //ends loop
     }else{
-      String fullNumber; //placeholder for the full number 
+      String fullNumber; //placeholder for the full number
       if(seconds < 10){ //if seconds is less than 10, the seconds variable will be 9 instead of 09, so it needs to be fixed to display properly.
         fullNumber = String(minutes) + "0" + String(seconds); // adds a zero before the current second.
       }else{
@@ -93,7 +93,7 @@ void countDown(int minutes, int seconds){
     sevseg.refreshDisplay();//needed to refresh the display properly.
   }
 }
-``` 
+```
 #### Setup
 1. The set up for the seven segment display is a little complicated, so just use the code here and replace the port numbers with the ports you used in your setup.  
 2. After that, the serial communication must be started using Serial.begin() with a baud rate of 115200.
@@ -132,7 +132,7 @@ void loop() {
     int seconds = input.substring(2).toInt(); //create an int variable for seconds equal to the last two characters in the input string and convert it to int.
     countDown(minutes, seconds); //run our countDown function.
   }
-  
+
   sevseg.refreshDisplay(); //refreshes display
 }
 ```

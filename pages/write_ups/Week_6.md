@@ -12,7 +12,7 @@ layout: default
 
 * * *
 
-**Download for this project's code:** [Here](https://goo.gl/8maVK6)
+**Download for this project's code:** [Here](https://tinyurl.com/yaoszgud)
 
 #### Includes
 For this project, no extra libraries are required.

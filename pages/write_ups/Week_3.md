@@ -12,11 +12,11 @@ layout: page_layout
 
 * * *
 
-**Download for this project's code:** [Here](https://goo.gl/JVeKwG)
+**Download for this project's code:** [Here](https://tinyurl.com/y7dg29n5)
 
 #### Includes
 This project needs to include the pitches library, which defines all the notes that can be played on the buzzer.  
-Download it [here.](https://goo.gl/P8tdAc)
+Download it [here.](https://tinyurl.com/y8af48vv)
 ```c++
 #include "pitches.h" //include pitches library to define notes
 ```
@@ -57,27 +57,27 @@ Now, an if else if statement chain can be used to check each button for being pr
 
 ```c++
 void loop() {  
-  
+
   if(digitalRead(buttons[0]) == LOW){//if the pin reads LOW (0v), then play the tone
-    
+
     tone(speakerPin, notes[0], duration);//plays first note with duration defined above.
-    
+
   }else if(digitalRead(buttons[1]) == LOW){//next ones are the same as above except with next button and note.
-    
+
     tone(speakerPin, notes[1], duration);
-    
+
   }else if(digitalRead(buttons[2]) == LOW){
-    
+
     tone(speakerPin, notes[2], duration);
-    
+
   }else if(digitalRead(buttons[3]) == LOW){
-    
+
     tone(speakerPin, notes[3], duration);
-    
+
   }else if(digitalRead(buttons[4]) == LOW){
-    
+
     tone(speakerPin, notes[4], duration);
-    
+
   }
 }
 ```

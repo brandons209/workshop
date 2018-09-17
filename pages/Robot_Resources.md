@@ -25,4 +25,4 @@ Bluetooth controllers are easy to set up and use, at least the ones mentioned ab
 
 ## Example Scripts for Arduino Robots
 * This example uses the Adafruit motor controller shield and a USB host shield with PS4 controller over Bluetooth to control some motors. It also shows how you can do a tank drive with the y axis on both analog sticks.
-  * [Basic robot with ps4 BT controller.](https://goo.gl/P4gi3Q)
+  * [Basic robot with ps4 BT controller.](https://tinyurl.com/y8tc8snv)
