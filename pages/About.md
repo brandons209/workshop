@@ -21,7 +21,7 @@ There are only four things you need to get the most out of this workshop:
 - Your brain.
 - A notebook and pencil to take notes.
 - A laptop.
-- The Arduino Super Starter kit. Kits will be provided in class. More information will be given later on purchasing one for yourself.
+- The Arduino Super Starter kit. Kits will be provided in class. However I highly suggest buying one for yourself so you can do your own projects! [Here](https://www.amazon.com/SainSmart-Starter-Learning-Tutorial-Arduino-Basic/dp/B074DWG8B9?crid=2M2MP1AIXNB2I&keywords) is the link to the kit we will be using, its only 20 dollars.
 
 ## Who is Brandon Silva?
 Well I am glad you asked! My name is Brandon Silva and I am in my second year here at UCF majoring in Computer Engineering.  
