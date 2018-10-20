@@ -12,7 +12,7 @@ layout: default
 
 * * *
 
-**Download for this project's code:** [Here](https://tinyurl.com/yaoszgud)
+**Download for this project's code:** [Here](https://tinyurl.com/y94l42cn)
 
 #### Includes
 For this project, no extra libraries are required.
@@ -91,7 +91,7 @@ void flashDashOrDot(char dashOrDot){
 }
 ```
 ##### Flash Sequence Function
-1. This function takes two arguments of type String. The first one is a sequence of Morse dots, dashes, and spaces. The second one is the sequence of dashes to represent no characters to print, then a character to print to the serial console. This is so that it prints the character right was the light is done flashing the morse code of that character.
+1. This function takes two arguments of type String. The first one is a sequence of Morse dots, dashes, and spaces. The second one is the sequence of dashes to represent no characters to print, then a character to print to the serial console. This is so that it prints the character right as the light is done flashing the morse code of that character.
 2. For each character in the sequence String, the flashDashOrDot function is ran on it.
 3. This is done by using a for loop that runs for the length of sequence String, using String.length() to find this value.
 4. If the serialSequence character at index i is not a "-", then it will be printed to the serial console.
