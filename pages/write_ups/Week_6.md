@@ -91,19 +91,24 @@ void flashDashOrDot(char dashOrDot){
 }
 ```
 ##### Flash Sequence Function
-1. This function takes one argument of type String that is a sequence of Morse dots, dashes, and spaces.
+1. This function takes two arguments of type String. The first one is a sequence of Morse dots, dashes, and spaces. The second one is the sequence of dashes to represent no characters to print, then a character to print to the serial console. This is so that it prints the character right was the light is done flashing the morse code of that character.
 2. For each character in the sequence String, the flashDashOrDot function is ran on it.
 3. This is done by using a for loop that runs for the length of sequence String, using String.length() to find this value.
-4. After the entire sequence has been shown on the led, the sequence is printed to the serial console to tell the user what was just displayed in Morse code.
+4. If the serialSequence character at index i is not a "-", then it will be printed to the serial console.
+5. After the entire sequence has been shown on the led, the sequence is printed to the serial console to tell the user what was just displayed in Morse code.
 
 ```c++
 /*
- * This function takes a sequence of morse code dashes and dots in the form a string and displays each one on the LED.
+ * This function takes a sequence of morse code dashes and dots in the form a string and displays each one on the LED. It also displays each character after it is flashed
  */
-void flashSequence(String sequence){
+void flashSequence(String sequence, String serialSequence){
   for(int i = 0; i < sequence.length(); i++){//runs for the length of the sequence, using the length() function. Index starts at 0 and runs to length() - 1
     flashDashOrDot(sequence.charAt(i));//runs flashDashOrDot with the char at the current index of the string
+    if(serialSequence.charAt(i) != '-'){//if the current character in serialSequence is not a dash, print it to the serial console
+      Serial.print(serialSequence.charAt(i));
+    }
   }
+  Serial.println();//print new line after printing letters of sequence
   Serial.println("Displayed: " + sequence);//show user morse code displayed after led is done flashing
 }
 ```
@@ -118,50 +123,64 @@ void flashSequence(String sequence){
 7. If it finds a match, then it adds the Morse equivalent of that number to the messageInMorse string.
 8. The next for loop will iterate through the alphabet array, and will check each letter in the alphabet against the current character in the messageToDisplay String. If it finds a match, it adds the Morse equivalent of that letter to he messageInMorse String.
 9. After the end of that for loop, one final if statement is need to check if the current character is a space. If it is a space, then it adds a space to the messageInMorse String to indicate the beginning of the next word.
-10. After all of the for loops, the messageInMorse String now contains the entire messageToDisplay String converted into Morse code. This String is then ran with the flashSequence function to flash the Morse code to the led.
+10. Inside each for loop for checking for letters and numbers, there is a for loop that iterates for the length of the morse sequence of the letter/number that is found minus one. This is so a dash is added to displayLetters to represent a character to not print. Then, the character found is added to that string. This makes it so in the flashSequence function the if statement will check when the current character is not a dash, and print it. Think of it as a "placeholder".
+12. For the last if statement to check for a space, if a space is found a space character is also added to the displayLetters String.
+13. After all of the for loops, the messageInMorse String now contains the entire messageToDisplay String converted into Morse code. This String along with the displayLetters String is then ran with the flashSequence function to flash the Morse code to the led, along with each character into the serial console as it is being flashed.
 
 ```c++
 /*
  * This functions takes a message in plain text as a string as an argument, then converts that message to morse. Then it runs the flashSequence function to flash the sequence of morse code.
  */
-void writeMorseString(String messageToDisplay){
-  messageToDisplay.trim();//trim() functions removes spaces at the beginning and end of the string, so " h b " becomes "h b"
-  messageToDisplay.toLowerCase();//toLowerCase() changes all characters in the string to lowercase, so we dont have to check for a lowercase or uppercase character
+ /*
+  * This functions takes a message in plain text as a string as an argument, then converts that message to morse. Then it runs the flashSequence function to flash the sequence of morse code.
+  */
+ void writeMorseString(String messageToDisplay){
+   messageToDisplay.trim();//trim() functions removes spaces at the beginning and end of the string, so " h b " becomes "h b"
+   messageToDisplay.toLowerCase();//toLowerCase() changes all characters in the string to lowercase, so we dont have to check for a lowercase or uppercase character
 
-  String messageInMorse = "";//empty string that will hold the morse code - and . of the characters in the plain text string
+   String messageInMorse = "";//empty string that will hold the morse code - and . of the characters in the plain text string
+   String displayLetters = "";//empty string to hold characters with dashes for printing letters as they are displayed
 
-  for(int currentCharacter = 0; currentCharacter < messageToDisplay.length(); currentCharacter++){//runs for the length of the messageToDisplay string.
+   for(int currentCharacter = 0; currentCharacter < messageToDisplay.length(); currentCharacter++){//runs for the length of the messageToDisplay string.
 
-      for(int numCheck = 0; numCheck < 10; numCheck++){//checks the current character in the messageToDisplay string against all 10 numbers in the numbers array and if it finds one, add the morse code equivalent to the messageInMorse string
+       for(int numCheck = 0; numCheck < 10; numCheck++){//checks the current character in the messageToDisplay string against all 10 numbers in the numbers array and if it finds one, add the morse code equivalent to the messageInMorse string
 
-          if(messageToDisplay.charAt(currentCharacter) == numbers[numCheck]){//if the currentCharacter in the messageToDisplay string is the same as the number in the number array at index numCheck
+           if(messageToDisplay.charAt(currentCharacter) == numbers[numCheck]){//if the currentCharacter in the messageToDisplay string is the same as the number in the number array at index numCheck
 
-            messageInMorse = messageInMorse + morseNumbers[numCheck];//add morse code for that number to the messageInMorse string
+             messageInMorse = messageInMorse + morseNumbers[numCheck];//add morse code for that number to the messageInMorse string
+             for(int i = 0; i < morseNumbers[numCheck].length() - 1; i++){//runs from 0 to the length of the morse version of number - 2.
+               displayLetters += "-"; //add a dash to displayLetters
+             }
+             displayLetters += numbers[numCheck];//add the string of the number to displayLetters
+           }
 
-          }
+       }
 
-      }
+       for(int charCheck = 0; charCheck < 26; charCheck++){//checks current character in the messageToDisplay string against all 26 letters in alphabet until its finds a match, then adds that letter's morse code to the messageInMorse string.
 
-      for(int charCheck = 0; charCheck < 26; charCheck++){//checks current character in the messageToDisplay string against all 26 letters in alphabet until its finds a match, then adds that letter's morse code to the messageInMorse string.
+           if(messageToDisplay.charAt(currentCharacter) == alphabet[charCheck]){//if the current character equals a letter in the alphabet array
 
-          if(messageToDisplay.charAt(currentCharacter) == alphabet[charCheck]){//if the current character equals a letter in the alphabet array
+             messageInMorse = messageInMorse + morseLetters[charCheck];//add that letter's morse code to messageInMorse string
+             for(int i = 0; i < morseLetters[charCheck].length() - 1; i++){//runs from 0 to the length of the morse version of the letter - 2
+               displayLetters += "-";//add a dash to displayLetters
+             }
+             displayLetters += alphabet[charCheck];//add the letter to the displayLetters string
+           }
 
-            messageInMorse = messageInMorse + morseLetters[charCheck];//add that letter's morse code to messageInMorse string
+       }//end for loop
 
-          }
+       if(messageToDisplay.charAt(currentCharacter) == ' '){//if the current character is a space
 
-      }//end for loop
+         messageInMorse = messageInMorse + " ";//add space to messageInMorse string
+         displayLetters += " ";//add a space to displayLetters
+       }
 
-      if(messageToDisplay.charAt(currentCharacter) == ' '){//if the current character is a space
 
-        messageInMorse = messageInMorse + " ";//add space to messageInMorse string
+   }
 
-      }
-
-  }
-
-  flashSequence(messageInMorse);//flash the entire messageInMorse string to LED
-}
+   displayLetters.toUpperCase();//convert displayLetters to uppercase characters
+   flashSequence(messageInMorse, displayLetters);//flash the entire messageInMorse string to LED
+ }
 ```
 #### Setup
 1. The three RGB led pins need to be set to pin mode output.
