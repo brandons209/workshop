@@ -40,7 +40,7 @@ int dotDelay = 200; //dot duration can be adjusted for how fast or slow you want
 int dashDelay = dotDelay * 3; //dash timing is length of 3 dots
 int wordDelay = dotDelay * 5;//duration between words can be from 4 to 7 times the dot duration
 
-String morseLetters[26] = {".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--."};//this contains the morse code of each letter in alphabetic order
+String morseLetters[26] = {".-", "-...", "-.-.", "-..", ".", "..-.", "--.", "....", "..", ".---", "-.-", ".-..", "--", "-.", "---", ".--.", "--.-", ".-.", "...", "-", "..-", "...-", ".--", "-..-", "-.--", "--.."};//this contains the morse code of each letter in alphabetic order
 char alphabet[26] = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};//alphabet of chars to use for comparing to input values
 
 String morseNumbers[10] = {"-----", ".----", "..---", "...--", "....-", ".....", "-....", "--...", "---..", "----."};//numbers 0-9 in morse code in that order
