@@ -12,5 +12,5 @@ layout: page_layout
 
 * * *
 
-Email: brandon.silva209@knights.ucf.edu
+Email: brandon.silva209@knights.ucf.edu    
 Discord: oakytreejr#8573  
