@@ -12,7 +12,5 @@ layout: page_layout
 
 * * *
 
-Slack: @Brandon Silva  
-Email: brandon.silva209@knights.ucf.edu  
-Phone: 865-356-9558  
+Email: brandon.silva209@knights.ucf.edu
 Discord: oakytreejr#8573  
